@@ -1,7 +1,3 @@
-import 'tailwindcss/tailwind.css'
-
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+    return ( <Component {...pageProps} /> )
 }
-
-export default MyApp
